@@ -7,7 +7,6 @@ import FirebaseContext from '../context/firebase';
 import * as ROUTES from '../constants/routes';
 import { doesUsernameExist } from '../services/firebase';
 
-
 export default function SignUp() {
   const navigate = useNavigate();
   const { firebase } = useContext(FirebaseContext);
