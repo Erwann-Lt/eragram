@@ -29,7 +29,7 @@ export default function Profile({ user }) {
   }, []);
 
   // user.username
-  
+
   return (
     <>
       <Header
