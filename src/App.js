@@ -57,7 +57,3 @@ const App = function ({ children, ...rest }) {
 };
 
 export default App;
-
-// 10 h 16
-
-// 11 h 20
