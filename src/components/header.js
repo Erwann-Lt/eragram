@@ -49,7 +49,7 @@ export default function Header() {
                     }
                   }}
                 >
-                  <Link to="/login">
+                  <Link to="/">
                     <svg
                       className="w-8 mr-6 text-black-light cursor-pointer"
                       xmlns="http://www.w3.org/2000/svg"
