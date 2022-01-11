@@ -13,13 +13,13 @@ export default function Header({ username }) {
             src={`/images/avatars/${username}.jpg`}
             alt={`${username} profile picture`}
           />
-            <p className="font-bold ">{username}</p>
+          <p className="font-bold ">{username}</p>
         </Link>
       </div>
     </div>
   );
 }
 
-Header.propTypes={
-    username : PropTypes.string.isRequired
-}
+Header.propTypes = {
+  username: PropTypes.string.isRequired
+};

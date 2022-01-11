@@ -1,3 +1,5 @@
+/* eslint-disable spaced-comment */
+/* eslint-disable no-empty-pattern */
 /* eslint-disable react/function-component-definition */
 import React, { useEffect } from 'react';
 import PropTypes from 'prop-types';

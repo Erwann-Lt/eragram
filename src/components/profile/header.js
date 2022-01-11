@@ -21,7 +21,7 @@ export default function Header({
     username: profileUsername
   }
 }) {
-   const { user } = useUser();
+  const { user } = useUser();
   const [isFollowingProfile, setIsFollowingProfile] = useState(false);
   const activeBtnFollow = user.username && user.username !== profileUsername;
 
@@ -42,7 +42,7 @@ export default function Header({
     setFollowerCount({
       followerCount: isFollowingProfile ? followerCount - 1 : followerCount + 1
     });
-    await toggleFollow(isFollowingProfile, user.docId, profileDocId, profileUserId, user.userId)
+    await toggleFollow(isFollowingProfile, user.docId, profileDocId, profileUserId, user.userId);
   };
 
   return (

@@ -1,4 +1,4 @@
-import { firebase, FiedlValue, FieldValue } from '../lib/firebase';
+import { firebase, FieldValue } from '../lib/firebase';
 
 export async function doesUsernameExist(username) {
   const result = await firebase
@@ -138,5 +138,5 @@ export async function toggleFollow(
   followingUserId
 ) {
   await updateLoggedInUserFollowing(activeUserDocId, profileUserId, isFollowingProfile);
-  await updateFollowedUserFollowers(profileDocId, followingUserId, isFollowingProfile)
+  await updateFollowedUserFollowers(profileDocId, followingUserId, isFollowingProfile);
 }

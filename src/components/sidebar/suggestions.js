@@ -15,7 +15,7 @@ export default function Suggestions({ loggedInUserDocId, userId, following }) {
       const response = await getSuggestedProfiles(userId, following);
       setProfiles(response);
     }
-     if (userId) {
+    if (userId) {
       suggestedProfiles();
     }
   }, [userId]);

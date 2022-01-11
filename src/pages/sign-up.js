@@ -1,11 +1,12 @@
 /* eslint-disable no-empty */
 /* eslint-disable react/function-component-definition */
+import { createContext } from 'react/cjs/react.development';
 import { useState, useContext, useEffect } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import FirebaseContext from '../context/firebase';
 import * as ROUTES from '../constants/routes';
 import { doesUsernameExist } from '../services/firebase';
-import { createContext } from 'react/cjs/react.development';
+
 
 export default function SignUp() {
   const navigate = useNavigate();

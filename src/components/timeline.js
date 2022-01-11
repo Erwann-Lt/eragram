@@ -13,7 +13,6 @@ import Post from './post';
 // export default function Timeline() {
 //   const { user } = useContext(LoggedInUserContext);
 
-
 //   const { photos } = usePhotos(user);
 
 //   return (
@@ -25,8 +24,6 @@ import Post from './post';
 //       )}
 //     </div>
 //   );
-
-
 
 export default function Timeline() {
   //   const { user: { following } = {} } = useContext(LoggedInUserContext);
