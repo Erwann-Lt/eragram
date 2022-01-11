@@ -3,7 +3,7 @@
 /* eslint-disable no-nested-ternary */
 /* eslint-disable react/function-component-definition */
 
-import { useContext } from 'react';
+// import { useContext } from 'react';
 import Skeleton from 'react-loading-skeleton';
 import usePhotos from '../hooks/use-photos';
 import Post from './post';
