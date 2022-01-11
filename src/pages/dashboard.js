@@ -2,7 +2,7 @@
 /* eslint-disable no-empty-pattern */
 /* eslint-disable react/function-component-definition */
 import React, { useEffect } from 'react';
-import PropTypes from 'prop-types';
+// import PropTypes from 'prop-types';
 import Header from '../components/header';
 import Sidebar from '../components/sidebar';
 import Timeline from '../components/timeline';
