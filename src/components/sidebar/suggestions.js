@@ -18,8 +18,10 @@ export default function Suggestions({ loggedInUserDocId, userId, following }) {
     if (userId) {
       suggestedProfiles();
     }
-  }, [userId]);
+  }, []);
 
+  // userId
+  
   return !profiles ? (
     <Skeleton count={1} height={150} className="mt-5 " />
   ) : profiles.length > 0 ? (
